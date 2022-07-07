@@ -1,0 +1,19 @@
+[32mINFO    [0m root:base.py:18 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="47b40b81bdabe03fe723512682824a83")>
+[32mINFO    [0m root:page_mp_login.py:36 正在调用自媒体登录业务登录功能，账号：13911111111，验证码：246810
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="47b40b81bdabe03fe723512682824a83", element="0ed120b4-e73b-49d3-92af-d052623e3154")>
+[32mINFO    [0m root:base.py:47 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input') 执行输入：13911111111
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="47b40b81bdabe03fe723512682824a83", element="b029e20e-c45c-45a2-9aa7-6039c40c0551")>
+[32mINFO    [0m root:base.py:47 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input') 执行输入：246810
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button')
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/span')
+[32mINFO    [0m root:base.py:61 正在查找元素：('xpath', '/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/span') 文本：pyt1113
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/span')
+[1m[31mERROR   [0m root:test01_mp_login.py:35 错误信息：assert '别改头像' == 'pyt1113'
+  - pyt1113
+  + 别改头像
+[1m[31mERROR   [0m root:base.py:66 断言出错，将错误截图写入allure报告

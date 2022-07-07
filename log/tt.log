@@ -1,0 +1,93 @@
+ 2022-07-07 18:30:30,464 - base.py - base - __init__ - 18 - INFO - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="47b40b81bdabe03fe723512682824a83")>
+ 2022-07-07 18:30:30,466 - page_mp_login.py - page_mp_login - page_login - 36 - INFO - 正在调用自媒体登录业务登录功能，账号：13911111111，验证码：246810
+ 2022-07-07 18:30:30,466 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')
+ 2022-07-07 18:30:30,472 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="47b40b81bdabe03fe723512682824a83", element="0ed120b4-e73b-49d3-92af-d052623e3154")>
+ 2022-07-07 18:30:31,473 - base.py - base - base_input - 47 - INFO - 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')执行清空
+ 2022-07-07 18:30:31,501 - base.py - base - base_input - 51 - INFO - 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input') 执行输入：13911111111
+ 2022-07-07 18:30:31,520 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')
+ 2022-07-07 18:30:31,526 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="47b40b81bdabe03fe723512682824a83", element="b029e20e-c45c-45a2-9aa7-6039c40c0551")>
+ 2022-07-07 18:30:32,526 - base.py - base - base_input - 47 - INFO - 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')执行清空
+ 2022-07-07 18:30:32,554 - base.py - base - base_input - 51 - INFO - 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input') 执行输入：246810
+ 2022-07-07 18:30:33,567 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button') 执行点击
+ 2022-07-07 18:30:33,567 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button')
+ 2022-07-07 18:30:34,588 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/span')
+ 2022-07-07 18:30:34,599 - base.py - base - base_text - 61 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/span') 文本：pyt1113
+ 2022-07-07 18:30:34,599 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div[2]/div/div[2]/div[2]/div/span')
+ 2022-07-07 18:30:34,605 - test01_mp_login.py - test01_mp_login - test_mp_login - 35 - ERROR - 错误信息：assert '别改头像' == 'pyt1113'
+  - pyt1113
+  + 别改头像
+ 2022-07-07 18:30:34,605 - base.py - base - base_get_img - 66 - ERROR - 断言出错，将错误截图写入allure报告
+ 2022-07-07 18:30:38,493 - base.py - base - __init__ - 18 - INFO - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b1e4f9d047989d31b9ef48184bb985ed")>
+ 2022-07-07 18:30:38,493 - page_mp_login.py - page_mp_login - page_login - 36 - INFO - 正在调用自媒体登录业务登录功能，账号：13911111111，验证码：246810
+ 2022-07-07 18:30:38,493 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')
+ 2022-07-07 18:30:38,499 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="153c5534-e284-4386-9f3e-4dcddba5fc37")>
+ 2022-07-07 18:30:39,499 - base.py - base - base_input - 47 - INFO - 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')执行清空
+ 2022-07-07 18:30:39,527 - base.py - base - base_input - 51 - INFO - 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input') 执行输入：13911111111
+ 2022-07-07 18:30:39,546 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')
+ 2022-07-07 18:30:39,551 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="0b4f0768-9895-431a-a025-682a6e09284e")>
+ 2022-07-07 18:30:40,551 - base.py - base - base_input - 47 - INFO - 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')执行清空
+ 2022-07-07 18:30:40,578 - base.py - base - base_input - 51 - INFO - 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input') 执行输入：246810
+ 2022-07-07 18:30:41,592 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button') 执行点击
+ 2022-07-07 18:30:41,592 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button')
+ 2022-07-07 18:30:42,613 - base.py - base - __init__ - 18 - INFO - 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b1e4f9d047989d31b9ef48184bb985ed")>
+ 2022-07-07 18:30:42,613 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+ 2022-07-07 18:30:42,614 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="内容管理"]')
+ 2022-07-07 18:30:43,637 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', "//*[contains(text(),'发布文章')]") 执行点击
+ 2022-07-07 18:30:43,637 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+ 2022-07-07 18:30:44,660 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[placeholder="文章名称"]')
+ 2022-07-07 18:30:44,665 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="e1f4ecb3-5e73-42cd-a22c-ab07bed62522")>
+ 2022-07-07 18:30:45,665 - base.py - base - base_input - 47 - INFO - 正在对元素：('css selector', '[placeholder="文章名称"]')执行清空
+ 2022-07-07 18:30:45,691 - base.py - base - base_input - 51 - INFO - 正在对元素：('css selector', '[placeholder="文章名称"]') 执行输入：test001
+ 2022-07-07 18:30:46,717 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[id="publishTinymce_ifr"]')
+ 2022-07-07 18:30:46,732 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[id="tinymce"]')
+ 2022-07-07 18:30:46,737 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="e3d8a1fc-dfe3-4cae-a04e-0eb84a081b90")>
+ 2022-07-07 18:30:47,737 - base.py - base - base_input - 47 - INFO - 正在对元素：('css selector', '[id="tinymce"]')执行清空
+ 2022-07-07 18:30:47,780 - base.py - base - base_input - 51 - INFO - 正在对元素：('css selector', '[id="tinymce"]') 执行输入：test======================
+ 2022-07-07 18:30:48,852 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="自动"]') 执行点击
+ 2022-07-07 18:30:48,852 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="自动"]')
+ 2022-07-07 18:30:49,875 - base.py - base - base_click - 56 - INFO - 正在对元素：('css selector', '[placeholder="请选择"]') 执行点击
+ 2022-07-07 18:30:49,875 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[placeholder="请选择"]')
+ 2022-07-07 18:30:50,903 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="css"]') 执行点击
+ 2022-07-07 18:30:50,903 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="css"]')
+ 2022-07-07 18:30:51,926 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="发表"]') 执行点击
+ 2022-07-07 18:30:51,926 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="发表"]')
+ 2022-07-07 18:30:51,948 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+ 2022-07-07 18:30:52,463 - base.py - base - base_text - 61 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]") 文本：新增文章成功
+ 2022-07-07 18:30:52,463 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+ 2022-07-07 18:30:52,470 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+ 2022-07-07 18:30:52,470 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="内容管理"]')
+ 2022-07-07 18:30:54,005 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+ 2022-07-07 18:30:54,006 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="内容管理"]')
+ 2022-07-07 18:30:55,018 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', "//*[contains(text(),'发布文章')]") 执行点击
+ 2022-07-07 18:30:55,018 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+ 2022-07-07 18:30:56,037 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[placeholder="文章名称"]')
+ 2022-07-07 18:30:56,040 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="33283f3e-79f5-486b-8d0f-9442f22312ee")>
+ 2022-07-07 18:30:57,041 - base.py - base - base_input - 47 - INFO - 正在对元素：('css selector', '[placeholder="文章名称"]')执行清空
+ 2022-07-07 18:30:57,065 - base.py - base - base_input - 51 - INFO - 正在对元素：('css selector', '[placeholder="文章名称"]') 执行输入：test001
+ 2022-07-07 18:30:58,087 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[id="publishTinymce_ifr"]')
+ 2022-07-07 18:30:58,098 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[id="tinymce"]')
+ 2022-07-07 18:30:58,101 - base.py - base - base_input - 43 - INFO - <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="29235340-2f76-4821-a010-d71478d7bbaf")>
+ 2022-07-07 18:30:59,101 - base.py - base - base_input - 47 - INFO - 正在对元素：('css selector', '[id="tinymce"]')执行清空
+ 2022-07-07 18:30:59,138 - base.py - base - base_input - 51 - INFO - 正在对元素：('css selector', '[id="tinymce"]') 执行输入：test======================
+ 2022-07-07 18:31:00,204 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="自动"]') 执行点击
+ 2022-07-07 18:31:00,204 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="自动"]')
+ 2022-07-07 18:31:01,224 - base.py - base - base_click - 56 - INFO - 正在对元素：('css selector', '[placeholder="请选择"]') 执行点击
+ 2022-07-07 18:31:01,224 - base.py - base - base_find - 29 - INFO - 正在查找元素：('css selector', '[placeholder="请选择"]')
+ 2022-07-07 18:31:02,247 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="css"]') 执行点击
+ 2022-07-07 18:31:02,247 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="css"]')
+ 2022-07-07 18:31:03,268 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="发表"]') 执行点击
+ 2022-07-07 18:31:03,268 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="发表"]')
+ 2022-07-07 18:31:03,286 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+ 2022-07-07 18:31:03,798 - base.py - base - base_text - 61 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]") 文本：新增文章成功
+ 2022-07-07 18:31:03,798 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+ 2022-07-07 18:31:03,805 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+ 2022-07-07 18:31:03,806 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', '//*[text()="内容管理"]')
+ 2022-07-07 18:31:22,576 - base.py - base - __init__ - 18 - INFO - 正在初始化driver：<appium.webdriver.webdriver.WebDriver (session="307924dd-e20f-4067-b642-c4a3fa0bb8eb")>
+ 2022-07-07 18:31:24,576 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']") 执行点击
+ 2022-07-07 18:31:24,576 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+ 2022-07-07 18:31:27,598 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']") 执行点击
+ 2022-07-07 18:31:27,598 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+ 2022-07-07 18:31:28,636 - base.py - base - base_click - 56 - INFO - 正在对元素：('xpath', "//*[@index='4' and @class='android.widget.Button']") 执行点击
+ 2022-07-07 18:31:28,636 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+ 2022-07-07 18:31:31,151 - base.py - base - base_find - 29 - INFO - 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+ 2022-07-07 18:31:31,158 - base.py - base - base_get_img - 66 - ERROR - 断言出错，将错误截图写入allure报告

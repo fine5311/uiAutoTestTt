@@ -1,0 +1,26 @@
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="内容管理"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', "//*[contains(text(),'发布文章')]") 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[placeholder="文章名称"]')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="33283f3e-79f5-486b-8d0f-9442f22312ee")>
+[32mINFO    [0m root:base.py:47 正在对元素：('css selector', '[placeholder="文章名称"]')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('css selector', '[placeholder="文章名称"]') 执行输入：test001
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[id="publishTinymce_ifr"]')
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[id="tinymce"]')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="29235340-2f76-4821-a010-d71478d7bbaf")>
+[32mINFO    [0m root:base.py:47 正在对元素：('css selector', '[id="tinymce"]')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('css selector', '[id="tinymce"]') 执行输入：test======================
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="自动"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="自动"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('css selector', '[placeholder="请选择"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[placeholder="请选择"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="css"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="css"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="发表"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="发表"]')
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+[32mINFO    [0m root:base.py:61 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]") 文本：新增文章成功
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="内容管理"]')

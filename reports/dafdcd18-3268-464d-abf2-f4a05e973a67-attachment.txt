@@ -1,0 +1,9 @@
+[32mINFO    [0m root:base.py:18 正在初始化driver：<appium.webdriver.webdriver.WebDriver (session="307924dd-e20f-4067-b642-c4a3fa0bb8eb")>
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']") 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[@index='1' and @class='android.widget.EditText']")
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']") 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[@index='2' and @class='android.widget.EditText']")
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', "//*[@index='4' and @class='android.widget.Button']") 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[@index='4' and @class='android.widget.Button']")
+[1m[31mERROR   [0m root:base.py:66 断言出错，将错误截图写入allure报告

@@ -1,0 +1,39 @@
+[32mINFO    [0m root:base.py:18 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b1e4f9d047989d31b9ef48184bb985ed")>
+[32mINFO    [0m root:page_mp_login.py:36 正在调用自媒体登录业务登录功能，账号：13911111111，验证码：246810
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="153c5534-e284-4386-9f3e-4dcddba5fc37")>
+[32mINFO    [0m root:base.py:47 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[1]/div/div/input') 执行输入：13911111111
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="0b4f0768-9895-431a-a025-682a6e09284e")>
+[32mINFO    [0m root:base.py:47 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('xpath', '/html/body/div/div/div/form/div[2]/div/div/input') 执行输入：246810
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '/html/body/div[1]/div/div/form/div[4]/div/button')
+[32mINFO    [0m root:base.py:18 正在初始化driver：<selenium.webdriver.chrome.webdriver.WebDriver (session="b1e4f9d047989d31b9ef48184bb985ed")>
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="内容管理"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', "//*[contains(text(),'发布文章')]") 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[contains(text(),'发布文章')]")
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[placeholder="文章名称"]')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="e1f4ecb3-5e73-42cd-a22c-ab07bed62522")>
+[32mINFO    [0m root:base.py:47 正在对元素：('css selector', '[placeholder="文章名称"]')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('css selector', '[placeholder="文章名称"]') 执行输入：test001
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[id="publishTinymce_ifr"]')
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[id="tinymce"]')
+[32mINFO    [0m root:base.py:43 <selenium.webdriver.remote.webelement.WebElement (session="b1e4f9d047989d31b9ef48184bb985ed", element="e3d8a1fc-dfe3-4cae-a04e-0eb84a081b90")>
+[32mINFO    [0m root:base.py:47 正在对元素：('css selector', '[id="tinymce"]')执行清空
+[32mINFO    [0m root:base.py:51 正在对元素：('css selector', '[id="tinymce"]') 执行输入：test======================
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="自动"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="自动"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('css selector', '[placeholder="请选择"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('css selector', '[placeholder="请选择"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="css"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="css"]')
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="发表"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="发表"]')
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+[32mINFO    [0m root:base.py:61 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]") 文本：新增文章成功
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', "//*[contains(text(),'新增文章成功')]")
+[32mINFO    [0m root:base.py:56 正在对元素：('xpath', '//*[text()="内容管理"]') 执行点击
+[32mINFO    [0m root:base.py:29 正在查找元素：('xpath', '//*[text()="内容管理"]')
